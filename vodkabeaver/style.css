@@ -1,0 +1,73 @@
+body{
+    /*background: url(images/back.jpg) repeat;*/
+    background: #FFC0CB;
+}
+
+.title{
+    height: 153px;
+    width: 614px;
+    background: none;
+    /*margin: 10px 10px 0px 10px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.diffContainer{
+    height: 25%;
+    width: 600px;
+    background: none;
+    /*margin: 10px 10px 0px 10px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: verdana, arial;
+}
+
+.main{
+    width: 600px;
+    height: 480px;
+    /*width: 50%;
+    height: 50%;*/
+    
+    background: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#msgContainer{
+    /*background: #BC8F8F;*/
+    background: url(images/bar.jpg) left no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+    top: -0px;
+    font-family: verdana, arial;
+    font-size: 30px;
+    z-index: 1;
+    width: inherit;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+#pic{
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#timeBar{
+    width: 200px;
+    height: 200px;
+    background: green;
+}
